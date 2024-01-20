@@ -17,22 +17,9 @@
 ---- to change branch to main
 1. git checkout main
 
-<<<<<<< HEAD
 -- to create new feature branch
 1. git checkout -b <feature_name>
 2. then git checkout <feature_name> from main branch
 
 ####### https://www.youtube.com/watch?v=QY6C1g4y-jA
 ####### https://azuredevopslabs.com/labs/azuredevops/pullrequests/
-=======
----- to create new feature branch
-1. git checkout -b <feature_name>
-2. then git checkout <feature_name> from main branch
-
------from feature
-####### https://www.youtube.com/watch?v=QY6C1g4y-jA
-####### https://azuredevopslabs.com/labs/azuredevops/pullrequests/
-
-----to merge with main
-1. git merge <feature_branch_name>
->>>>>>> add_link
