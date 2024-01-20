@@ -1,0 +1,8 @@
+1. git init
+2. git config --global user.name 'Alif Irfan'
+3. git config --global user.email 'muhdalifirfan850@gmail.com'
+
+----to add changes to staging area
+
+1. git add . 
+2. git status  -- to see changes to be commited
