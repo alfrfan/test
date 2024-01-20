@@ -18,5 +18,10 @@
 1. git checkout main
 
 -- to create new feature branch
-1. git checkout b <feature_name>
+1. git checkout -b <feature_name>
 2. then git checkout <feature_name> from main branch
+
+--from feature
+####### https://www.youtube.com/watch?v=QY6C1g4y-jA
+####### https://azuredevopslabs.com/labs/azuredevops/pullrequests/
+
