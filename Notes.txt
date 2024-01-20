@@ -6,3 +6,8 @@
 
 1. git add . 
 2. git status  -- to see changes to be commited
+3. git commit -m "<message>" -- to commit changes to main branch
+
+----to check changes on git repo
+
+1. git log -- to check all commit
