@@ -10,5 +10,13 @@
 
 ----to check changes on git repo
 
-1. git log -- to check all commit
+1. git log -- to check  commit
 2. git checkout <commit id> //in git log -- to changes to previos commit
+3. git log --all  ----to check all commit
+
+-- to change branch to main
+1. git checkout main
+
+-- to create new feature branch
+1. git checkout b <feature_name>
+2. then git checkout <feature_name> from main branch
