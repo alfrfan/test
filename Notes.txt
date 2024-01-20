@@ -11,3 +11,4 @@
 ----to check changes on git repo
 
 1. git log -- to check all commit
+2. git checkout <commit id> //in git log -- to changes to previos commit
