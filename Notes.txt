@@ -6,7 +6,9 @@ SETUP CONNECTION WITH GITHUB repo
 TO PUSH main to GITHUB repo
 
 git push <remote> <branch>
-
+OR
+git push <remote> <local-branch> : <remote-branch> #to map brnach of local with remote branch
+for example, git push origin pancake:waffle
 
 -- easy way to create a new branch
 
