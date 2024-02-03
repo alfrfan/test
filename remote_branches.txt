@@ -1,0 +1,18 @@
+if we clone from the repo, we only get main or master branch
+
+
+try this :- git branch or git branch -r 
+
+you will only see master or main branch
+
+----------------------------------------------------
+
+if want to get other branch in remote repo,
+pls use : git switch <branch> name, the local branch will 
+automaticallly link the branch with the repo. for example: 
+
+git switch banana (local)
+
+then this banana branch will automaticallly link to origin/banana
+
+if branch not exist, we will get error
