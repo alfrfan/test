@@ -13,7 +13,7 @@ try this:
 RENAME BRANCH
 Try this:
 1. Go the branch that we want to rename
-2.
+2. run this: git branch -m <branch_name>
 
 
 
