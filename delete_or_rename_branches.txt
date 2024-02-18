@@ -1,0 +1,41 @@
+DELETE BRANCH
+try this:
+1. Go to main
+2. git switch chicken
+3. git switch deleteMe
+4. make sure we're in main/master branch_name
+5. then run this. git branch -d deleteMe
+6. notice the error
+7. choose either want to merge and rerun the code
+8. or run this query, git branch -D deleteMe 
+9. git branch -D <branch_name> will force delete the branch
+
+RENAME BRANCH
+Try this:
+1. Go the branch that we want to rename
+2.
+
+
+
+
+
+
+
+
+
+
+
+Use this code: 
+
+git branch -d <branch_name>
+
+if the branch is not yet merged with 'main' branch,
+we will get error.
+
+either merge the feature_branch with main branch with the code, OR :
+
+git branch -D  <branch_name>
+
+this will delete the branch irrespective with the branch's merge status.
+
+Keep in mind, the main different of -d and -D is -D is a shortcut of '--force--delete'
