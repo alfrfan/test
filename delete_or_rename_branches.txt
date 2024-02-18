@@ -25,6 +25,7 @@ Try this:
 
 
 
+
 Use this code: 
 
 git branch -d <branch_name>
