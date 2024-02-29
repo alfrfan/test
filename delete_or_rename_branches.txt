@@ -1,4 +1,4 @@
-DELETE BRANCH
+DELETE BRANCH-- local git repo
 try this:
 1. Go to main
 2. git switch chicken
@@ -9,6 +9,11 @@ try this:
 7. choose either want to merge and rerun the code
 8. or run this query, git branch -D deleteMe 
 9. git branch -D <branch_name> will force delete the branch
+
+
+DELETE BRANCH-- remote repo
+
+git push origin --delete <deleting_branch>
 
 RENAME BRANCH
 Try this:
