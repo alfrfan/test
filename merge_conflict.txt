@@ -1,0 +1,25 @@
+if got merge conflit:
+
+1. go to local IDE
+2. type this command: git fetch origin
+3. to get latest branch in remote repository 
+and link it with local remote repo branches.
+4. then switch to the roblematic_branch
+5. git switch <problematic_branch>
+6. then merge it with main 
+so now the merge branch is tally with main.
+7.git merge main
+8. now fix the conflicts then commits.
+
+
+AFTER RESOLVE THE CONFLICT IN  <problematic_branch>
+
+1. Switch back to main branch
+2. git switch main
+3. the merge the main with <problematic_branch>
+4. git merge  <problematic_branch>
+5. then push to remote repo
+6. git push origin master
+
+DELETE THE <problematic_branch> branch
+git branch -D <problematic_branch>
